@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-07-09
 inline: true
 ---
 
-A simple inline announcement.
+Presented a [ReadTwice project](https://underline.io/events/122/posters/4267/poster/20706-readtwice-reading-very-large-documents-with-memories) at [NAACL 2021](https://2021.naacl.org).
