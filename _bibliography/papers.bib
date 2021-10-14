@@ -1,6 +1,20 @@
 ---
 ---
 
+@misc{dejong2021mention,
+      title={Mention Memory: incorporating textual knowledge into Transformers through entity mention attention}, 
+      author={Michiel* de Jong and Yury* Zemlyanskiy and Nicholas FitzGerald and Fei Sha and William Cohen},
+      year={2021},
+      eprint={2110.06176},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      html      = {https://arxiv.org/abs/2110.06176},
+      pdf       = {https://arxiv.org/pdf/2110.06176.pdf},      
+      abstract={Natural language understanding tasks such as open-domain question answering often require retrieving and assimilating factual information from multiple sources. We propose to address this problem by integrating a semi-parametric representation of a large text corpus into a Transformer model as a source of factual knowledge. Specifically, our method represents knowledge with `mention memory', a table of dense vector representations of every entity mention in a corpus. The proposed model - TOME - is a Transformer that accesses the information through internal memory layers in which each entity mention in the input passage attends to the mention memory. This approach enables synthesis of and reasoning over many disparate sources of information within a single Transformer model. In experiments using a memory of 150 million Wikipedia mentions, TOME achieves strong performance on several open-domain knowledge-intensive tasks, including the claim verification benchmarks HoVer and FEVER and several entity-based QA benchmarks. We also show that the model learns to attend to informative mentions without any direct supervision. Finally we demonstrate that the model can generalize to new unseen entities by updating the memory without retraining.},
+      selected  = {true}  
+
+}
+
 @inproceedings{DBLP:conf/naacl/ZemlyanskiyAJPE21,
   author    = {Yury Zemlyanskiy and
                Joshua Ainslie and
@@ -18,7 +32,7 @@
                Tanmoy Chakraborty and
                Yichao Zhou},
   title     = {ReadTwice: Reading Very Large Documents with Memories},
-  booktitle = {{NAACL-HLT}, Online},
+  booktitle = {{NAACL-HLT}},
   pages     = {5189--5195},
   publisher = {Association for Computational Linguistics},
   year      = {2021},
@@ -48,7 +62,7 @@
                Reut Tsarfaty},
   title     = {{DOCENT:} Learning Self-Supervised Entity Representations from Large
                Document Collections},
-  booktitle = {{EACL}, Online},
+  booktitle = {{EACL}},
   pages     = {2540--2549},
   publisher = {Association for Computational Linguistics},
   year      = {2021},
@@ -76,7 +90,7 @@ Finally, we make our datasets and pre-trained models publicly available. This in
                Llu{\'{\i}}s M{\`{a}}rquez},
   title     = {Self-Attentive, Multi-Context One-Class Classification for Unsupervised
                Anomaly Detection on Text},
-  booktitle = {{ACL}, Florence, Italy},
+  booktitle = {{ACL}},
   pages     = {4061--4071},
   publisher = {Association for Computational Linguistics},
   year      = {2019},
@@ -98,7 +112,7 @@ Finally, we make our datasets and pre-trained models publicly available. This in
                Ivan Titov},
   title     = {Aiming to Know You Better Perhaps Makes Me a More Engaging Dialogue
                Partner},
-  booktitle = {CoNLL, Brussels, Belgium},
+  booktitle = {CoNLL},
   pages     = {551--561},
   publisher = {Association for Computational Linguistics},
   year      = {2018},
@@ -117,7 +131,7 @@ Finally, we make our datasets and pre-trained models publicly available. This in
 @inproceedings{eck2014extracting,
   title={Extracting translation pairs from social network content},
   author={Eck, Matthias and Zemlyanskiy, Yury and Zhang, Joy and Waibel, Alex},
-  booktitle = {IWSLT, South Lake Tahoe, California, USA},  
+  booktitle = {IWSLT},  
   year={2014},
   html={https://research.fb.com/publications/extracting-translation-pairs-from-social-network-content/},
   pdf={https://research.fb.com/wp-content/uploads/2016/11/publication00122_download0001.pdf},
