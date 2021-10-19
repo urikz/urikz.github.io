@@ -8,7 +8,7 @@ nav: true
 ---
 
 <div class="publications">
-
+<!-- * equal first author contribution   -->
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}

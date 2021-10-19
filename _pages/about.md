@@ -17,6 +17,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a fifth-year Computer Science Ph.D. student at the University of Southern California, advised by professor [Fei Sha](https://viterbi-web.usc.edu/~feisha). Before joining graduate school, I worked on Neural Machine Translation at the Applied Machine Learning team from Facebook. I got my specialist (5 years) degree in Computer Science from St. Petersburg State University with professor [Alexander Vakhitov](https://alexandervakhitov.github.io) as my thesis advisor.
+I'm a fifth-year Computer Science Ph.D. student at the University of Southern California, advised by professor [Fei Sha](https://viterbi-web.usc.edu/~feisha). Before joining graduate school, I worked on Neural Machine Translation at the Applied Machine Learning team from Facebook. I got my specialist (5 years) degree in Computer Science and Math from St. Petersburg State University with professor [Alexander Vakhitov](https://alexandervakhitov.github.io) as my thesis advisor.
 
 I'm interested broadly in Machine Learning and Natural Language Processing, focusing on text and entity representations, memory augmented models and reasoning over text.
