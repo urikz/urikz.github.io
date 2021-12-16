@@ -6,7 +6,7 @@ description: ML / NLP PhD student at <a href="https://shalab.usc.edu/people/">Sh
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   # address: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
